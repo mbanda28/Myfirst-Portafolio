@@ -2,9 +2,77 @@
 <html>
 <head>
   <title>Mi página web</title>
+  <style>
+      /* Estilos generales */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      header img{
+        margin: 2px;
+        padding: 1px;
+        width: 120px;
+        height: 120px;
+        border-radius: 48%;
+      }
+      
+      a{
+        color: rgb(109, 171, 174);
+        border-bottom: #D1495B;
+      }
+
+      header {
+        background-color: #333;
+        color: #A2DBCF;
+        padding: 20px;
+        text-align: left;
+        image-orientation:unset;
+        align-content: center;
+      }
+      
+      h1 {
+        margin: 0;
+      }
+      
+      section {
+        margin: 25px;
+        border-color: #F5E6CB;
+        text-align: justify;
+        right: calc();
+      }
+      
+      h2 {
+        color: #293838;
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      
+      p {
+        line-height: 1.5;
+      }
+      
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: right;
+      }
+      
+      /* Estilos específicos */
+      section:nth-child(odd) {
+        background-color: #F2DDC0;
+      }
+      
+      section:nth-child(even) {
+        background-color: #FFEFD5;
+      }
+  </style>
 </head>
 <body>
   <header>
+    <img src="perfil.jpeg" alt="home" class="top" /> 
     <h1>Bienvenido a mi página web</h1>
     <nav>
       <ul>
@@ -22,7 +90,23 @@
   
   <section id="acerca-de">
     <h2>Acerca de</h2>
-    <p>Esta sección proporciona información sobre mí.</p>
+      <p>Mi Nombre</p>
+      <section>
+        <h2>Biografía</h2>
+        <p>Aquí puedes escribir tu biografía, contando un poco sobre ti, tu experiencia, tus habilidades y cualquier otra información relevante.</p>
+      </section>
+    
+    <section>
+      <h2>Proyectos</h2>
+      <p>En esta sección, puedes destacar algunos de los proyectos en los que has trabajado o mostrar tu trabajo más reciente. Puedes agregar enlaces a tus proyectos o incluir imágenes y descripciones.</p>
+    </section>
+    
+    <section>
+      <h2>Contacto</h2>
+      <p>Puedes proporcionar información de contacto para que los visitantes puedan comunicarse contigo. Esto puede incluir tu dirección de correo electrónico, número de teléfono, enlaces a tus perfiles de redes sociales, etc.</p>
+      <p>Esta sección proporciona información sobre mí.</p>
+      <p>Derechos de autor &copy; 2023 Mi Portafolio Personal.</p>
+    </section>
   </section>
   
   <section id="contacto">
